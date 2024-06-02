@@ -39,6 +39,26 @@ body {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+    padding: 3px;
+}
+::-webkit-scrollbar-track{
+    margin-block: 5px;
+    background: #e4e4e4;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    width: 7px;
+    border-radius: 50px;
+    background: #4d17ff;
+    border: 2px solid #e4e4e4;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #693bff;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -121,6 +141,7 @@ header.sticky #darkMode-Icon{
 section{
     min-height: 100vh;
     padding: 10rem 7% 2rem;
+    overflow: hidden;
 }
 
 
@@ -132,7 +153,6 @@ section{
 
 .home-content{
     max-width: 44rem;
-    overflow-y: hidden;
 }
 
 .home-content .headers{
@@ -671,6 +691,10 @@ span{
 @media(max-width: 639px){
     #menu-Icon{
         display: block;
+    }
+
+    .home-content{
+        overflow-y: hidden;
     }
 
     #darkMode-Icon{
