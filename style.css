@@ -132,6 +132,11 @@ section{
 
 .home-content{
     max-width: 44rem;
+    overflow-y: hidden;
+}
+
+.home-content .headers{
+    margin-top: 10px;
 }
 
 .home-content h3 {
@@ -839,6 +844,10 @@ span{
     .home-content{
         padding-top: 5rem;
         overflow: hidden;
+    }
+
+    .home .profession-container .overlay{
+        top: 67rem;
     }
 
     .home-content h1{
