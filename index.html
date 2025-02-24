@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Abbas</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <a href="#home" class="upArrow"><i class='bx bx-up-arrow-alt'></i></a>
+
+    <header>
+        <a href="#" class="logo">protofolio</a>
+        <nav class="navbar">
+            <a class="active homeTab" href="#home">home</a>
+            <a href="#about">about us</a>
+            <a href="#services">Services</a>
+            <a href="#projects">my projects</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <i id="darkMode-Icon" class='bx bx-moon'></i>
+        
+        <i id="menu-Icon" class='bx bx-menu'></i>
+
+    </header>
+
+    <section class="home" id="home">
+        <div id="particles-js" 
+            style="position: absolute; z-index: 0; top: 0;left: 0; height: 100vh; width: 100%;">
+        </div>
+
+
+        <div class="home-content">
+            <div class="headers">
+                <h3>Hello ,I'm</h3> 
+                <h1>Youssef Abbas</h1>
+                <h3 class="mutable-text" style="padding-left: 10px; color: var(--main-color);"></h3> 
+                <p>I'm Youssef and I a Front-end Developer I can convert mokeup to acode and creat a  websites
+                    like web store and films web ...ect
+                </p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61555243172791&mibextid=2JQ9oc" target="_blank" class="icons face">
+                    <div class="icon"><i class='bx bxl-facebook-circle bx-rotate-90 bx-tada ' undefined></i></div>
+                    <span>FaceBook</span>
+                </a>
+                <a href="https://github.com/YoussefAbbas12" target="_blank" class="icons git">
+                    <div class="icon"><i class='bx bxl-github bx-tada'></i></div>
+                    <span>Githup</span>
+                </a>
+                <a href="https://wa.me/qr/G2WVYCN6NKJ3L1" target="_blank" class="icons whatsapp">
+                    <div class="icon"><i class='bx bxl-whatsapp bx-tada'></i></div>
+                    <span>whatsapp</span>
+                </a>
+            </div>
+            <a href="#my-work" class="btn">MY WORK</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt' style="margin-left: -25px;"></i>
+                    <h3>Front end</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-camera'></i>
+                    <h3>Photographer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>3D Modeling</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/my photo.png">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/my photo.png">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">about <span>me</span></h2>
+            <h3>Frontend developer</h3>
+            <p>
+                Using modern development techniques, we design user interfaces that combine beauty
+                with superior performance. We are here to turn your ideas into digital 
+                reality, creating effective communication with your target audience.
+                Discover innovation and professionalism through our services,
+                and let us help you build an unforgettable user experience.
+                (I'm sudent in We School of Applied Technology)
+            </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Servises</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxs-palette'></i>
+                <h3>Front end Developer</h3>
+                <p>by HTML and CSS (with FrameWork BootStrap) and JavaScript (with FrameWork React js)</p>
+    
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-block' ></i>
+                <h3>Back end Developer</h3>
+                <p>I learned PHP (with his FrameWork Laravel) and I done alot of full stack projects</p>
+    
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-movie'></i>
+                <h3>VFX & 3D Modeling</h3>
+                <p>I have experience in creating visual effects (VFX) and 3D modeling, including texturing, animation, and rendering for high-quality visuals.</p>
+            
+                <a href="#" class="btn">Read More</a>
+            </div>
+               
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="projects-container">
+            <script>
+                let links = [
+                {
+                    title: 'HERFA',
+                    description: 'A website for a company that pay hand make products.',
+                    image: 'images/project1.png',
+                    link:'HERFA/',
+                    style:""
+                },
+                {
+                    title: 'Programming Quiz',
+                    description: 'A website for a make Quizes in programming and social studies.',
+                    image: 'images/project2.png',
+                    link:'Programming-Quiz/',
+                    style:""
+                },
+                {
+                    title: 'Clock',
+                    description: 'A website for a clock.',
+                    image: 'images/project3.png',
+                    link:'Clock/',
+                    style:""
+                },
+
+                {
+                    title: 'Msar web',
+                    description: 'A website for a programming company .',
+                    image: 'images/project4.png',
+                    link:'msar-/',
+                    style:""
+                },
+                {
+                    title: 'weather app',
+                    description: 'A website for a get weather.',
+                    image: 'images/project5.png',
+                    link:'weather-app/',
+                    style:""
+                },
+                {
+                    title: 'News website',
+                    description: 'A website for news.',
+                    image: 'images/project6.png',
+                    link:'Task1/',
+                    style:""
+                },
+
+                {
+                    title: 'Security Company',
+                    description: 'A website for security company.',
+                    image: 'images/project7.png',
+                    link:'SecurityCompany/',
+                    style:""
+                },
+                {
+                    title: 'Dash board',
+                    description: 'A website for Dash board',
+                    image: 'images/project13.png',
+                    link:'#',
+                    style:""
+                },
+                {
+                    title: 'text to voice',
+                    description: 'A website to convert text to voice.',
+                    image: 'images/project8.png',
+                    link:'text-to-voice/',
+                    style:""
+                },
+                {
+                    title: 'image filter',
+                    description: 'A website to edit on images.',
+                    image: 'images/project9.png',
+                    link:'image-filter/',
+                    style:""
+                },
+
+                {
+                    title: 'new company site',
+                    description: 'A website for company site.',
+                    image: 'images/project10.png',
+                    link:'new-company-site/',
+                    style:""
+                },
+                {
+                    title: 'Eslam website',
+                    description: 'A website for see the sour and and listen to it and know tafseer.',
+                    image: 'images/project1.png',
+                    link:'#',
+                    style:'style:"display:none"'
+                },
+                {
+                    title: 'Eslam website',
+                    description: 'A website for see the sour and and listen to it and know tafseer.',
+                    image: 'images/project12.png',
+                    link:'#',
+                    style:""
+                },
+                {
+                    title: 'news site',
+                    description: 'A website for news site.',
+                    image: 'images/project11.png',
+                    link:'#',
+                    style:""
+                }];
+                for(let i = 0; i < links.length; i++){
+                    const projectsBox = document.querySelector('.projects-container');
+                    const projectHTML = `
+                        <div class="projects-box" style="${links[i].style}">
+                            <img src="${links[i].image}">
+                            <div class="project-layer">
+                                <h4>${links[i].title}</h4>
+                                <p>${links[i].description}</p>
+                                <a target="--blank" href="https://youssefabbas12.github.io/${links[i].link}">View Project</a>
+                            </div>
+                        </div>
+                    `;
+                    projectsBox.insertAdjacentHTML('beforeend', projectHTML);
+                };
+            </script>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="46db0722-b0fd-4bba-9641-715c8a7897a6">
+
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="phone" placeholder="Mobile Number" required>
+                <input type="text" name="email-subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Massage" required></textarea>
+            <input type="submit" class="btn">
+        </form>
+    </section>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('.mutable-text', {
+            strings: ["FrontEnd Developer" ,"Programmer" , "UI/UX Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log('particales.json loaded...');
+        });
+    </script>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
